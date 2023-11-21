@@ -26,16 +26,16 @@ body {
   font-family: "Karla", sans-serif;
   font-size: 16px;
   /* center the container on the screen */
-  height: 100vh;
-  height: 100svh;
+  max-height: 100vh;
+  max-height: 100svh;
   display: grid;
   place-items: center;
   background-color: var(--color-primary-Light-Gray);
 }
 
 .container {
-  max-width: 630px;
-  margin: 2em 8px;
+  width: min(95%, 630px);
+  margin-block: 1em;
 }
 
 /**** hero section styles ****/
