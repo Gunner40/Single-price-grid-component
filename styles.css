@@ -100,7 +100,6 @@ body {
   text-align: center;
   background-color: var(--color-primary-Bright-Yellow);
   color: #fff;
-  font-size: 19px;
   font-weight: 700;
   border-radius: 0.25em;
   box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.15);
@@ -127,7 +126,7 @@ body {
   margin-bottom: 1em;
 }
 .why-us p {
-  color: var(--color-primary-Light-Gray-lower-opacity);
+  color: var(--color-primary-Light-Gray);
   font-size: 14px;
   margin-bottom: 0.5em;
 }
